@@ -2,8 +2,7 @@ const $ = require('jquery')
 
 function UserService() {
   this.urls = {
-    // devProxy: 'https://cors-anywhere.herokuapp.com/',
-    devProxy: '',
+    devProxy: 'https://cors-anywhere.herokuapp.com/',
     base: 'https://shipbobinterview.azurewebsites.net',
     users: '/api/users',
   }
