@@ -1,7 +1,8 @@
-const $ = require('jquery')
 import Vue from 'vue'
 import store from '@/store/index'
 import router from '@/router/index'
+
+const $ = require('jquery')
 
 const testUtils = {}
 
@@ -27,7 +28,7 @@ testUtils.CtorConstructor = (component, options = {}, mount = true) => {
 testUtils.stubAjaxCall = () => {
   // stub out Ajax call
   sinon.stub($, 'ajax').callsFake((event) => {
-    var result = $.Deferred()
+    const result = $.Deferred()
     result.args = event
     return result
   })
