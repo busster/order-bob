@@ -1,0 +1,49 @@
+.block-header {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.block-title {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.well {
+  padding: 2em;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 1em;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+}
+.list-item:last-of-type {
+  margin-bottom: 0;
+}
+.list-item-options {
+  display: flex;
+  justify-content: space-between;
+
+}
+.list-item-title {
+  display: flex;
+  font-size: 1.25em;
+}
+.list-item-option {
+  display: flex;
+  margin-left: 1em;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
